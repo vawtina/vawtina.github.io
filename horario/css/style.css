@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Lucida Sans Unicode';
+}
+
+table {
+    margin: 3% auto;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+thead tr:first-child th {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tfoot tr:first-child th {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+tfoot {
+    background-color: hsl(238, 96%, 81%);
+}
+
+td,
+th {
+    width: 120px;
+    margin: 0.5px;
+}
+
+
+tr th:first-child,
+tr td:first-child {
+    width: 60px;
+    padding: 5px;
+    color: hsl(236, 100%, 17%);
+}
+
+thead {
+    background-color: hsl(238, 96%, 81%);
+    color: hsl(236, 86%, 17%);
+
+}
+
+thead tr th {
+    padding-bottom: 10px;
+
+}
+
+tbody td {
+    text-align: center;
+    background-color: hsl(236, 100%, 91%);
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.almoco {
+    background-color: hsl(238, 96%, 81%);
+    color: white;
+}
+
+tbody td:hover:not(:first-child, :empty) {
+    background-color: hsl(236, 40%, 51%);
+    color: white;
+    cursor: pointer;
+}
